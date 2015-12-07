@@ -12,6 +12,8 @@
 		9B9F105E1C15271B0014F1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9F105C1C15271B0014F1B7 /* Main.storyboard */; };
 		9B9F10601C15271B0014F1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9F105F1C15271B0014F1B7 /* Assets.xcassets */; };
 		9B9F10631C15271B0014F1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9F10611C15271B0014F1B7 /* LaunchScreen.storyboard */; };
+		9B9F106B1C1545360014F1B7 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F106A1C1545360014F1B7 /* FriendDetailViewController.swift */; };
+		9B9F106D1C160BA60014F1B7 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F106C1C160BA60014F1B7 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B9F105F1C15271B0014F1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9F10621C15271B0014F1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B9F10641C15271B0014F1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9F106A1C1545360014F1B7 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		9B9F106C1C160BA60014F1B7 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9B9F105F1C15271B0014F1B7 /* Assets.xcassets */,
 				9B9F10611C15271B0014F1B7 /* LaunchScreen.storyboard */,
 				9B9F10641C15271B0014F1B7 /* Info.plist */,
+				9B9F106A1C1545360014F1B7 /* FriendDetailViewController.swift */,
+				9B9F106C1C160BA60014F1B7 /* Friend.swift */,
 			);
 			path = FriendBookPlus;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				9B9F105B1C15271B0014F1B7 /* ViewController.swift in Sources */,
 				9B9F10591C15271B0014F1B7 /* AppDelegate.swift in Sources */,
+				9B9F106B1C1545360014F1B7 /* FriendDetailViewController.swift in Sources */,
+				9B9F106D1C160BA60014F1B7 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
