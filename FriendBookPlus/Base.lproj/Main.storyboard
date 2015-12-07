@@ -36,10 +36,10 @@
                                 <exclude reference="jyJ-y9-H1b"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="Yzx-9f-DrN"/>
                                 <exclude reference="8eL-w6-QKp"/>
                                 <exclude reference="WZJ-rZ-9AP"/>
                                 <exclude reference="d2v-iC-5iX"/>
-                                <exclude reference="Yzx-9f-DrN"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -47,10 +47,10 @@
                                 <include reference="jyJ-y9-H1b"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="Yzx-9f-DrN"/>
                                 <include reference="8eL-w6-QKp"/>
                                 <include reference="WZJ-rZ-9AP"/>
                                 <include reference="d2v-iC-5iX"/>
-                                <include reference="Yzx-9f-DrN"/>
                             </mask>
                         </variation>
                     </view>
@@ -73,6 +73,7 @@
                         <viewControllerLayoutGuide type="bottom" id="pTK-W2-KdD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xGO-lN-tPb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inF-6D-bsV">

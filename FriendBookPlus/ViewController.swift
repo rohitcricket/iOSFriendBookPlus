@@ -32,6 +32,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         elaine.phoneNumber = "222-234-2213"
         self.friends.append(elaine)
         
+        let george = Friend()
+        george.name = "George"
+        george.birthday = "January 2nd"
+        george.phoneNumber = "333-444-2245"
+        self.friends.append(george)
+        
+        let kramer = Friend()
+        kramer.name = "Kramer"
+        kramer.birthday = "January 3rd"
+        kramer.phoneNumber = "888-800-1111"
+        self.friends.append(kramer)
+        
+        let jerry = Friend()
+        jerry.name = "George"
+        jerry.birthday = "January 4th"
+        jerry.phoneNumber = "111-222-3333"
+        self.friends.append(jerry)
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
